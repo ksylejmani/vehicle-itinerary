@@ -1,0 +1,394 @@
+{
+  "streets": [
+    {
+      "start": 18,
+      "end": 0,
+      "name": "Lakrishte_BillClinton_Lakrishte",
+      "time": 25
+    },
+    {
+      "start": 18,
+      "end": 0,
+      "name": "Lakrishte_BillClinton_Santea",
+      "time": 25
+    },
+    {
+      "start": 18,
+      "end": 0,
+      "name": "Lakrishte_BillClinton_Tuneli",
+      "time": 25
+    },
+    {
+      "start": 18,
+      "end": 0,
+      "name": "Lakrishte_BillClinton_ShtjefenGjeqovi",
+      "time": 25
+    },
+    {
+      "start": 1,
+      "end": 0,
+      "name": "Santea_BillClinton_Santea",
+      "time": 29
+    },
+    {
+      "start": 1,
+      "end": 0,
+      "name": "Santea_BillClinton_Lakrishte",
+      "time": 29
+    },
+    {
+      "start": 1,
+      "end": 0,
+      "name": "Santea_BillClinton_ShtjefenGjeqovi",
+      "time": 29
+    },
+    {
+      "start": 1,
+      "end": 0,
+      "name": "Santea_BillClinton_Tuneli",
+      "time": 29
+    },
+    {
+      "start": 25,
+      "end": 0,
+      "name": "Tuneli_BillClinton_ShtjefenGjeqovi",
+      "time": 10
+    },
+    {
+      "start": 25,
+      "end": 0,
+      "name": "Tuneli_BillClinton_Lakrishte",
+      "time": 10
+    },
+    {
+      "start": 25,
+      "end": 0,
+      "name": "Tuneli_BillClinton_Santea",
+      "time": 10
+    },
+    {
+      "start": 26,
+      "end": 0,
+      "name": "ShtjefenGjeqovi_BillClinton_Tuneli",
+      "time": 9
+    },
+    {
+      "start": 26,
+      "end": 0,
+      "name": "ShtjefenGjeqovi_BillClinton_Santea",
+      "time": 9
+    },
+    {
+      "start": 26,
+      "end": 0,
+      "name": "ShtjefenGjeqovi_BillClinton_Lakrishte",
+      "time": 9
+    },
+    {
+      "start": 0,
+      "end": 1,
+      "name": "BillClinton_Santea_BillClinton",
+      "time": 29
+    },
+    {
+      "start": 0,
+      "end": 1,
+      "name": "BillClinton_Santea_RobertDoll",
+      "time": 29
+    },
+    {
+      "start": 0,
+      "end": 1,
+      "name": "BillClinton_Santea_Katedralja",
+      "time": 29
+    },
+    {
+      "start": 27,
+      "end": 1,
+      "name": "RobertDoll_Santea_Katedralja",
+      "time": 12
+    },
+    {
+      "start": 27,
+      "end": 1,
+      "name": "RobertDoll_Santea_BillClinton",
+      "time": 12
+    },
+    {
+      "start": 2,
+      "end": 1,
+      "name": "Katedralja_Santea_BillClinton",
+      "time": 35
+    },
+    {
+      "start": 2,
+      "end": 1,
+      "name": "Katedralja_Santea_RobertDoll",
+      "time": 35
+    },
+    {
+      "start": 1,
+      "end": 2,
+      "name": "Santea_Katedralja_Santea",
+      "time": 35
+    },
+    {
+      "start": 1,
+      "end": 2,
+      "name": "Santea_Katedralja_Parking",
+      "time": 35
+    },
+    {
+      "start": 1,
+      "end": 2,
+      "name": "Santea_Katedralja_Menza",
+      "time": 35
+    },
+    {
+      "start": 1,
+      "end": 2,
+      "name": "Santea_Katedralja_PTK",
+      "time": 35
+    },
+    {
+      "start": 12,
+      "end": 2,
+      "name": "PTK_Katedralja_PTK",
+      "time": 48
+    },
+    {
+      "start": 12,
+      "end": 2,
+      "name": "PTK_Katedralja_Santea",
+      "time": 48
+    },
+    {
+      "start": 12,
+      "end": 2,
+      "name": "PTK_Katedralja_Parking",
+      "time": 48
+    },
+    {
+      "start": 12,
+      "end": 2,
+      "name": "PTK_Katedralja_Menza",
+      "time": 48
+    },
+    {
+      "start": 16,
+      "end": 2,
+      "name": "Menza_Katedralja_Menza",
+      "time": 35
+    },
+    {
+      "start": 16,
+      "end": 2,
+      "name": "Menza_Katedralja_PTK",
+      "time": 35
+    },
+    {
+      "start": 16,
+      "end": 2,
+      "name": "Menza_Katedralja_Santea",
+      "time": 35
+    },
+    {
+      "start": 16,
+      "end": 2,
+      "name": "Menza_Katedralja_Parking",
+      "time": 35
+    },
+    {
+      "start": 71,
+      "end": 2,
+      "name": "Parking_Katedralja_Parking",
+      "time": 11
+    },
+    {
+      "start": 71,
+      "end": 2,
+      "name": "Parking_Katedralja_Menza",
+      "time": 11
+    },
+    {
+      "start": 71,
+      "end": 2,
+      "name": "Parking_Katedralja_PTK",
+      "time": 11
+    },
+    {
+      "start": 71,
+      "end": 2,
+      "name": "Parking_Katedralja_Santea",
+      "time": 11
+    },
+    {
+      "start": 2,
+      "end": 16,
+      "name": "Katedralja_Menza_Katedralja",
+      "time": 35
+    },
+    {
+      "start": 2,
+      "end": 16,
+      "name": "Katedralja_Menza_MAShTI",
+      "time": 35
+    },
+    {
+      "start": 2,
+      "end": 16,
+      "name": "Katedralja_Menza_Qerimi",
+      "time": 35
+    },
+    {
+      "start": 2,
+      "end": 16,
+      "name": "Katedralja_Menza_Teknik",
+      "time": 35
+    },
+    {
+      "start": 3,
+      "end": 16,
+      "name": "Teknik_Menza_Teknik",
+      "time": 53
+    },
+    {
+      "start": 3,
+      "end": 16,
+      "name": "Teknik_Menza_Katedralja",
+      "time": 53
+    },
+    {
+      "start": 3,
+      "end": 16,
+      "name": "Teknik_Menza_MAShTI",
+      "time": 53
+    },
+    {
+      "start": 3,
+      "end": 16,
+      "name": "Teknik_Menza_Qerimi",
+      "time": 53
+    },
+    {
+      "start": 4,
+      "end": 16,
+      "name": "Qerimi_Menza_Qerimi",
+      "time": 30
+    },
+    {
+      "start": 4,
+      "end": 16,
+      "name": "Qerimi_Menza_Teknik",
+      "time": 30
+    },
+    {
+      "start": 4,
+      "end": 16,
+      "name": "Qerimi_Menza_Katedralja",
+      "time": 30
+    },
+    {
+      "start": 4,
+      "end": 16,
+      "name": "Qerimi_Menza_MAShTI",
+      "time": 30
+    },
+    {
+      "start": 6,
+      "end": 16,
+      "name": "MAShTI_Menza_MAShTI",
+      "time": 48
+    },
+    {
+      "start": 6,
+      "end": 16,
+      "name": "MAShTI_Menza_Qerimi",
+      "time": 48
+    },
+    {
+      "start": 6,
+      "end": 16,
+      "name": "MAShTI_Menza_Teknik",
+      "time": 48
+    },
+    {
+      "start": 6,
+      "end": 16,
+      "name": "MAShTI_Menza_Katedralja",
+      "time": 48
+    },
+    {
+      "start": 16,
+      "end": 4,
+      "name": "Menza_Qerimi_Menza",
+      "time": 30
+    },
+    {
+      "start": 16,
+      "end": 4,
+      "name": "Menza_Qerimi_HajrullahAbdullahu",
+      "time": 30
+    },
+    {
+      "start": 16,
+      "end": 4,
+      "name": "Menza_Qerimi_EnverMaloku",
+      "time": 30
+    },
+    {
+      "start": 16,
+      "end": 4,
+      "name": "Menza_Qerimi_Teknik",
+      "time": 30
+    },
+    {
+      "start": 3,
+      "end": 4,
+      "name": "Teknik_Qerimi_Teknik",
+      "time": 48
+    },
+    {
+      "start": 3,
+      "end": 4,
+      "name": "Teknik_Qerimi_Menza",
+      "time": 48
+    },
+    {
+      "start": 3,
+      "end": 4,
+      "name": "Teknik_Qerimi_HajrullahAbdullahu",
+      "time": 48
+    },
+    {
+      "start": 3,
+      "end": 4,
+      "name": "Teknik_Qerimi_EnverMaloku",
+      "time": 48
+    },
+    {
+      "start": 30,
+      "end": 4,
+      "name": "EnverMaloku_Qerimi_EnverMaloku",
+      "time": 12
+    },
+    {
+      "start": 30,
+      "end": 4,
+      "name": "EnverMaloku_Qerimi_Teknik",
+      "time": 12
+    },
+    {
+      "start": 30,
+      "end": 4,
+      "name": "EnverMaloku_Qerimi_Menza",
+      "time": 12
+    },
+    {
+      "start": 30,
+      "end": 4,
+      "name": "EnverMaloku_Qerimi_HajrullahAbdullahu",
+      "time": 12
+    }
+  ]
+}
