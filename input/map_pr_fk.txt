@@ -38,7 +38,7 @@
 71 2 Parking_Katedralja_Menza
 71 2 Parking_Katedralja_PTK
 71 2 Parking_Katedralja_Santea
-Katedralja_Parking
+2 71 Katedralja_Parking
 16 3 Menza_Teknik_Menza
 16 3 Menza_Teknik_Qerimi
 16 3 Menza_Teknik_RrugaB

@@ -39,7 +39,7 @@ Start intersection ID,End intersection ID,Name of the road segment,Distance
 71,2,Parking_Katedralja_Menza,11
 71,2,Parking_Katedralja_PTK,11
 71,2,Parking_Katedralja_Santea,11
-,,Katedralja_Parking,11
+2,71,Katedralja_Parking,11
 16,3,Menza_Teknik_Menza,53
 16,3,Menza_Teknik_Qerimi,53
 16,3,Menza_Teknik_RrugaB,53

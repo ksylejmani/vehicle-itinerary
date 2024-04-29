@@ -337,11 +337,11 @@ function generateInstance(intersections, streets, cars, duration = 600, bonus = 
 // Main Execution
 const exit_roadsFilePath = 'input/exit_roads.csv';
 const intersectionsFile = 'input/intersections.csv';
-const maP_filename = 'input/map_pr.txt';
+const maP_filename = 'input/map_lakrishte_qerimi.txt';
 const streetsFile = 'input/road_segments_distance.csv';
-const traffic_filename = 'input/road_segments_traffic.csv';
+const traffic_filename = 'input/road_segments_traffic_lakrishte_qerimi.csv';
 
-const outputInstanceName = 'output/instance_pr.json'
+const outputInstanceName = 'output/instance_lakrishte_qerimi.json'
 
 const multiplier = 100;
 

@@ -12,6 +12,8 @@
 26 0 ShtjefenGjeqovi_BillClinton_Tuneli
 26 0 ShtjefenGjeqovi_BillClinton_Santea
 26 0 ShtjefenGjeqovi_BillClinton_Lakrishte
+0 25 BillClinton_Tuneli
+0 26 BillClinton_ShtjefenGjeqovi
 0 1 BillClinton_Santea_BillClinton
 0 1 BillClinton_Santea_RobertDoll
 0 1 BillClinton_Santea_Katedralja
@@ -19,6 +21,7 @@
 27 1 RobertDoll_Santea_BillClinton
 2 1 Katedralja_Santea_BillClinton
 2 1 Katedralja_Santea_RobertDoll
+1 27 Santea_RobertDoll
 1 2 Santea_Katedralja_Santea
 1 2 Santea_Katedralja_Parking
 1 2 Santea_Katedralja_Menza
@@ -35,6 +38,7 @@
 71 2 Parking_Katedralja_Menza
 71 2 Parking_Katedralja_PTK
 71 2 Parking_Katedralja_Santea
+2 71 Katedralja_Parking
 2 16 Katedralja_Menza_Katedralja
 2 16 Katedralja_Menza_MAShTI
 2 16 Katedralja_Menza_Qerimi
@@ -63,3 +67,5 @@
 30 4 EnverMaloku_Qerimi_Teknik
 30 4 EnverMaloku_Qerimi_Menza
 30 4 EnverMaloku_Qerimi_HajrullahAbdullahu
+4 29 Qerimi_HajrullahAbdullahu
+4 30 Qerimi_EnverMaloku
