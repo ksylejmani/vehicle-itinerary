@@ -1,0 +1,180 @@
+{
+    "constraints": [
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "TahirZajmi", 
+            "streets": [
+                "Lakrishte_TahirZajmi_TerminaliDoganor",
+                "TerminaliDoganor_TahirZajmi_Lakrishte"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "TerminaliDoganor",
+            "streets": [
+                "TreguIMadh_TerminaliDoganor_TahirZajmi",
+                "TahirZajmi_TerminaliDoganor_TreguIMadh",
+                "TreguIMadh_TerminaliDoganor_DeshmoretEPonoshecit"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "TerminaliDoganor",
+            "streets": [
+                "TahirZajmi_TerminaliDoganor_DeshmoretEPonoshecit",
+                "TahirZajmi_TerminaliDoganor_TreguIMadh",
+                "DeshmoretEPonoshecit_TerminaliDoganor_TahirZajmi"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "TerminaliDoganor",
+            "streets": [
+                "DeshmoretEPonoshecit_TerminaliDoganor_TreguIMadh",
+                "DeshmoretEPonoshecit_TerminaliDoganor_TahirZajmi"
+            ]
+        },
+        {
+            "type": "signal_phase_order",
+            "intersection_name": "TerminaliDoganor",
+            "streets": [
+                "TreguIMadh_TerminaliDoganor_TahirZajmi",
+                "TahirZajmi_TerminaliDoganor_DeshmoretEPonoshecit"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "TreguIMadh",
+            "streets": [
+                "ElezBerisha_TreguIMadh_TerminaliDoganor",
+                "TerminaliDoganor_TreguIMadh_ElezBerisha",
+                "ElezBerisha_TreguIMadh_KlanKosova"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "TreguIMadh",
+            "streets": [
+                "TerminaliDoganor_TreguIMadh_KlanKosova",
+                "TerminaliDoganor_TreguIMadh_ElezBerisha",
+                "KlanKosova_TreguIMadh_TerminaliDoganor"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "TreguIMadh",
+            "streets": [
+                "KlanKosova_TreguIMadh_ElezBerisha",
+                "KlanKosova_TreguIMadh_TerminaliDoganor"
+            ]
+        },
+        {
+            "type": "signal_phase_order",
+            "intersection_name": "TreguIMadh",
+            "streets": [
+                "ElezBerisha_TreguIMadh_TerminaliDoganor",
+                "TerminaliDoganor_TreguIMadh_KlanKosova"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "ElezBerisha",
+            "streets": [
+                "RrugaEUglarit_ElezBerisha_TreguIMadh",
+                "TreguIMadh_ElezBerisha_RrugaEUglarit",
+                "RrugaEUglarit_ElezBerisha_Interex"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "ElezBerisha",
+            "streets": [
+                "TreguIMadh_ElezBerisha_Interex",
+                "TreguIMadh_ElezBerisha_RrugaEUglarit"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "ElezBerisha",
+            "streets": [
+                "TreguIMadh_ElezBerisha_Interex",
+                "TreguIMadh_ElezBerisha_RrugaEUglarit",
+                "Interex_ElezBerisha_TreguIMadh"
+            ]
+        },
+        {
+            "type": "signal_phase_order",
+            "intersection_name": "ElezBerisha",
+            "streets": [
+                "RrugaEUglarit_ElezBerisha_TreguIMadh",
+                "TreguIMadh_ElezBerisha_Interex"
+            ]
+        },        
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "RrugaEUglarit",
+            "streets": [
+                "HajrullahZymi_RrugaEUglarit_ElezBerisha",
+                "ElezBerisha_RrugaEUglarit_HajrullahZymi",
+                "HajrullahZymi_RrugaEUglarit_KompleksiLinda3"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "RrugaEUglarit",
+            "streets": [
+                "ElezBerisha_RrugaEUglarit_KompleksiLinda3",
+                "ElezBerisha_RrugaEUglarit_HajrullahZymi"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "RrugaEUglarit",
+            "streets": [
+                "KompleksiLinda3_RrugaEUglarit_HajrullahZymi",
+                "KompleksiLinda3_RrugaEUglarit_ElezBerisha"
+            ]
+        },
+        {
+            "type": "signal_phase_order",
+            "intersection_name": "RrugaEUglarit",
+            "streets": [
+                "HajrullahZymi_RrugaEUglarit_ElezBerisha",
+                "ElezBerisha_RrugaEUglarit_KompleksiLinda3"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "HajrullahZymi",
+            "streets": [
+                "RrugaEUglarit_HajrullahZymi_RrethiRrugaEPejes",
+                "RrugaEUglarit_HajrullahZymi_Dardania",
+                "RrethiRrugaEPejes_HajrullahZymi_RrugaEUglarit"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "HajrullahZymi",
+            "streets": [
+                "RrethiRrugaEPejes_HajrullahZymi_Dardania",
+                "RrethiRrugaEPejes_HajrullahZymi_RrugaEUglarit"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "HajrullahZymi",
+            "streets": [
+                "Dardania_HajrullahZymi_RrugaEUglarit",
+                "Dardania_HajrullahZymi_RrethiRrugaEPejes"
+            ]
+        },
+        {
+            "type": "signal_phase_order",
+            "intersection_name": "HajrullahZymi",
+            "streets": [
+                "RrugaEUglarit_HajrullahZymi_RrethiRrugaEPejes",
+                "RrethiRrugaEPejes_HajrullahZymi_Dardania"
+            ]
+        }
+    ]
+}

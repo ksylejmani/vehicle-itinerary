@@ -1,0 +1,234 @@
+{
+    "constraints": [
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Lakrishte", 
+            "streets": [
+                "TahirZajmi_Lakrishte_BillClinton",
+                "BillClinton_Lakrishte_TahirZajmi"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "BillClinton",
+            "streets": [
+                "Lakrishte_BillClinton_Santea",
+                "Lakrishte_BillClinton_Tuneli",
+                "Santea_BillClinton_Lakrishte",
+                "Santea_BillClinton_ShtjefenGjeqovi"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "BillClinton",
+            "streets": [
+                "Lakrishte_BillClinton_ShtjefenGjeqovi",
+                "Lakrishte_BillClinton_Lakrishte",
+                "Santea_BillClinton_Santea",
+                "Santea_BillClinton_Tuneli",
+                "Tuneli_BillClinton_Santea",
+                "ShtjefenGjeqovi_BillClinton_Lakrishte"
+            ]
+        },         
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "BillClinton",
+            "streets": [
+                "Tuneli_BillClinton_ShtjefenGjeqovi",
+                "Tuneli_BillClinton_Lakrishte",
+                "Tuneli_BillClinton_Santea",
+                "ShtjefenGjeqovi_BillClinton_Tuneli",
+                "ShtjefenGjeqovi_BillClinton_Santea",
+                "ShtjefenGjeqovi_BillClinton_Lakrishte",
+                "Lakrishte_BillClinton_Tuneli"
+            ]
+        },         
+        {
+            "type": "signal_phase_order",
+            "intersection_name": "BillClinton",
+            "streets": [
+                "Lakrishte_BillClinton_Santea",
+                "Lakrishte_BillClinton_ShtjefenGjeqovi"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Santea",
+            "streets": [
+                "BillClinton_Santea_Katedralja",
+                "Katedralja_Santea_BillClinton",
+                "Katedralja_Santea_RobertDoll"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Santea",
+            "streets": [
+                "BillClinton_Santea_RobertDoll",
+                "BillClinton_Santea_BillClinton",
+                "RobertDoll_Santea_Katedralja"
+            ]
+        }, 
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Santea",
+            "streets": [
+                "Katedralja_Santea_RobertDoll",
+                "RobertDoll_Santea_BillClinton",
+                "RobertDoll_Santea_Katedralja"
+            ]
+        },
+        {
+            "type": "signal_phase_order",
+            "intersection_name": "Santea",
+            "streets": [
+                "BillClinton_Santea_Katedralja",
+                "BillClinton_Santea_RobertDoll"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Katedralja",
+            "streets": [
+                "Menza_Katedralja_Santea",
+                "Santea_Katedralja_Menza",
+                "Santea_Katedralja_PTK",
+                "PTK_Katedralja_Menza"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Katedralja",
+            "streets": [
+                "Menza_Katedralja_PTK",
+                "Santea_Katedralja_Santea",
+                "Santea_Katedralja_Parking",
+                "Menza_Katedralja_Menza",
+                "Santea_Katedralja_PTK",
+                "PTK_Katedralja_Menza",
+                "Parking_Katedralja_Santea"
+            ]
+        },  
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Katedralja",
+            "streets": [
+                "PTK_Katedralja_PTK",
+                "PTK_Katedralja_Santea",
+                "PTK_Katedralja_Menza",
+                "Santea_Katedralja_PTK",
+                "Parking_Katedralja_Menza"
+            ]
+        },
+                {
+            "type": "simultaneously_signal",
+            "intersection_name": "Katedralja",
+            "streets": [
+                "Parking_Katedralja_PTK",
+                "Parking_Katedralja_Santea"
+            ]
+        },
+        {
+            "type": "signal_phase_order",
+            "intersection_name": "Katedralja",
+            "streets": [
+                "Menza_Katedralja_Santea",
+                "Menza_Katedralja_PTK"
+            ]
+        },   
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Menza",
+            "streets": [
+                "Katedralja_Menza_Katedralja",
+                "Katedralja_Menza_MAShTI",
+                "Katedralja_Menza_Qerimi",
+                "Katedralja_Menza_Teknik",
+                "MAShTI_Menza_Katedralja",
+                "Teknik_Menza_Qerimi"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Menza",
+            "streets": [
+                "MAShTI_Menza_Teknik",
+                "MAShTI_Menza_Katedralja",
+                "Teknik_Menza_MAShTI",
+                "Teknik_Menza_Qerimi",
+                "Katedralja_Menza_Teknik",
+                "Qerimi_Menza_MAShTI"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Menza",
+            "streets": [
+                "MAShTI_Menza_Qerimi",
+                "MAShTI_Menza_MAShTI",
+                "Teknik_Menza_Teknik",
+                "Teknik_Menza_Katedralja",
+                "Qerimi_Menza_MAShTI",
+                "Katedralja_Menza_Teknik"
+            ]
+        }, 
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Menza",
+            "streets": [
+                "Qerimi_Menza_Qerimi",
+                "Qerimi_Menza_MAShTI",
+                "Qerimi_Menza_Katedralja",
+                "Qerimi_Menza_Teknik",
+                "Teknik_Menza_Qerimi",
+                "Katedralja_Menza_Teknik",
+                "MAShTI_Menza_Katedralja"
+            ]
+        },
+        {
+            "type": "signal_phase_order",
+            "intersection_name": "Menza",
+            "streets": [
+                "MAShTI_Menza_Teknik",
+                "MAShTI_Menza_Qerimi"
+            ]
+        },         
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Qerimi",
+            "streets": [
+                "Teknik_Qerimi_Teknik",
+                "Teknik_Qerimi_Menza",
+                "Teknik_Qerimi_HajrullahAbdullahu",
+                "Teknik_Qerimi_EnverMaloku",
+                "Menza_Qerimi_Teknik",
+                "EnverMaloku_Qerimi_HajrullahAbdullahu"
+            ]
+        },
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Qerimi",
+            "streets": [
+                "EnverMaloku_Qerimi_EnverMaloku",
+                "EnverMaloku_Qerimi_Teknik",
+                "EnverMaloku_Qerimi_Menza",
+                "EnverMaloku_Qerimi_HajrullahAbdullahu",
+                "Menza_Qerimi_Teknik",
+                "Teknik_Qerimi_EnverMaloku"
+            ]
+        }
+        ,
+        {
+            "type": "simultaneously_signal",
+            "intersection_name": "Qerimi",
+            "streets": [
+                "Menza_Qerimi_Menza",
+                "Menza_Qerimi_Teknik",
+                "Menza_Qerimi_EnverMaloku",
+                "Menza_Qerimi_HajrullahAbdullahu",
+                "Teknik_Qerimi_EnverMaloku",
+                "EnverMaloku_Qerimi_HajrullahAbdullahu"
+            ]
+        }
+    ]
+}

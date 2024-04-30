@@ -1,4 +1,7 @@
 Name of the road segment,Number of cars
+Lakrishte_TahirZajmi_TerminaliDoganor,0
+TahirZajmi_Lakrishte_BillClinton,240
+BillClinton_Lakrishte_TahirZajmi,254
 Lakrishte_BillClinton_Lakrishte,1
 Lakrishte_BillClinton_Santea,149
 Lakrishte_BillClinton_Tuneli,38
@@ -13,6 +16,8 @@ Tuneli_BillClinton_Santea,17
 ShtjefenGjeqovi_BillClinton_Tuneli,18
 ShtjefenGjeqovi_BillClinton_Santea,7
 ShtjefenGjeqovi_BillClinton_Lakrishte,29
+BillClinton_Tuneli,0
+BillClinton_ShtjefenGjeqovi,0
 BillClinton_Santea_BillClinton,3
 BillClinton_Santea_RobertDoll,51
 BillClinton_Santea_Katedralja,132
@@ -20,6 +25,7 @@ RobertDoll_Santea_Katedralja,66
 RobertDoll_Santea_BillClinton,63
 Katedralja_Santea_BillClinton,142
 Katedralja_Santea_RobertDoll,103
+Santea_RobertDoll,0
 Santea_Katedralja_Santea,25
 Santea_Katedralja_Parking,1
 Santea_Katedralja_Menza,127
@@ -36,10 +42,12 @@ Parking_Katedralja_Parking,0
 Parking_Katedralja_Menza,0
 Parking_Katedralja_PTK,2
 Parking_Katedralja_Santea,1
+Katedralja_Parking,0
 Katedralja_Menza_Katedralja,3
 Katedralja_Menza_MAShTI,83
 Katedralja_Menza_Qerimi,82
 Katedralja_Menza_Teknik,23
+Katedralja_PTK_BulevardiDK,0
 Teknik_Menza_Teknik,2
 Teknik_Menza_Katedralja,25
 Teknik_Menza_MAShTI,90
@@ -52,6 +60,8 @@ MAShTI_Menza_MAShTI,1
 MAShTI_Menza_Qerimi,21
 MAShTI_Menza_Teknik,106
 MAShTI_Menza_Katedralja,59
+Menza_MAShTI_Parlamenti,0
+Menza_Teknik_RrugaB,0
 Menza_Qerimi_Menza,0
 Menza_Qerimi_HajrullahAbdullahu,4
 Menza_Qerimi_EnverMaloku,53
@@ -64,3 +74,6 @@ EnverMaloku_Qerimi_EnverMaloku,0
 EnverMaloku_Qerimi_Teknik,45
 EnverMaloku_Qerimi_Menza,108
 EnverMaloku_Qerimi_HajrullahAbdullahu,10
+Qerimi_HajrullahAbdullahu,0
+Qerimi_EnverMaloku,0
+Qerimi_Teknik_FehmiLladrovci,0

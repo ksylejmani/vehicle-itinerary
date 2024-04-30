@@ -1,3 +1,6 @@
+18 19 Lakrishte_TahirZajmi_TerminaliDoganor
+19 18 TahirZajmi_Lakrishte_BillClinton
+0 18 BillClinton_Lakrishte_TahirZajmi
 18 0 Lakrishte_BillClinton_Lakrishte
 18 0 Lakrishte_BillClinton_Santea
 18 0 Lakrishte_BillClinton_Tuneli
@@ -43,6 +46,7 @@
 2 16 Katedralja_Menza_MAShTI
 2 16 Katedralja_Menza_Qerimi
 2 16 Katedralja_Menza_Teknik
+2 12 Katedralja_PTK_BulevardiDK
 3 16 Teknik_Menza_Teknik
 3 16 Teknik_Menza_Katedralja
 3 16 Teknik_Menza_MAShTI
@@ -55,6 +59,8 @@
 6 16 MAShTI_Menza_Qerimi
 6 16 MAShTI_Menza_Teknik
 6 16 MAShTI_Menza_Katedralja
+16 6 Menza_MAShTI_Parlamenti
+16 3 Menza_Teknik_RrugaB
 16 4 Menza_Qerimi_Menza
 16 4 Menza_Qerimi_HajrullahAbdullahu
 16 4 Menza_Qerimi_EnverMaloku
@@ -69,3 +75,4 @@
 30 4 EnverMaloku_Qerimi_HajrullahAbdullahu
 4 29 Qerimi_HajrullahAbdullahu
 4 30 Qerimi_EnverMaloku
+4 3 Qerimi_Teknik_FehmiLladrovci

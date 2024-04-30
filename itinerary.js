@@ -309,7 +309,18 @@ function readStreetsAndConvertToJSON(csvFilePath) {
     return streets;
 }
 
-function generateInstance(intersections, streets, cars, duration = 600, bonus = 100, duration_to_pass_through_a_traffic_light = 1.42, yellow_phase = 4, limit_on_minimum_cycle_length = 60, limit_on_maximum_cycle_length = 120, limit_on_minimum_green_phase_duration = 15, limit_on_maximum_green_phase_duration = 70) {
+function readConstraintsFromFile(filename) {
+    try {
+        const data = fs.readFileSync(filename, 'utf8');
+        const constraints = JSON.parse(data).constraints;
+        return constraints;
+    } catch (err) {
+        console.error('Error reading constraints from file:', err);
+        return [];
+    }
+}
+
+function generateInstance(intersections, streets, cars, constraints, duration = 600, bonus = 100, duration_to_pass_through_a_traffic_light = 1.42, yellow_phase = 4, limit_on_minimum_cycle_length = 60, limit_on_maximum_cycle_length = 120, limit_on_minimum_green_phase_duration = 15, limit_on_maximum_green_phase_duration = 70) {
     let values = {
         "simulation": {
             "duration": duration,
@@ -326,7 +337,8 @@ function generateInstance(intersections, streets, cars, duration = 600, bonus = 
         },
         "intersections": intersections,
         "streets": streets,
-        "cars": cars
+        "cars": cars,
+        "constraints":constraints
     };
 
     return JSON.stringify(values, null, 4);
@@ -335,15 +347,16 @@ function generateInstance(intersections, streets, cars, duration = 600, bonus = 
 
 
 // Main Execution
-const exit_roadsFilePath = 'input/exit_roads.csv';
-const intersectionsFile = 'input/intersections.csv';
-const maP_filename = 'input/map_lakrishte_qerimi.txt';
-const streetsFile = 'input/road_segments_distance.csv';
-const traffic_filename = 'input/road_segments_traffic_lakrishte_qerimi.csv';
+const exit_roadsFilePath = 'input/exit_roads_pr_fk.csv';
+const intersectionsFile = 'input/intersections_pr_fk.csv';
+const maP_filename = 'input/map_pr_fk.txt';
+const streetsFile = 'input/road_segments_distance_pr_fk.csv';
+const traffic_filename = 'input/road_segments_traffic_pr_fk.csv';
+const constraints_filename="input/constraints_pr_fk.json";
 
 const outputInstanceName = 'output/instance_lakrishte_qerimi.json'
 
-const multiplier = 100;
+const multiplier = 200;
 
 
 const graph = readEdgeListFromFile(maP_filename);
@@ -355,7 +368,10 @@ const cars = getCars(feasible_paths, roadSegments_traffic, exitRoadMap);
 console.log(roadSegments_traffic)
 const intersections = readIntersectionsAndConvertToJSON(intersectionsFile);
 const streets = readStreetsAndConvertToJSON(streetsFile);
-let instance = generateInstance(intersections, streets, cars);
+
+const constraints = readConstraintsFromFile(constraints_filename);
+
+let instance = generateInstance(intersections, streets, cars,constraints);
 
 
 fs.writeFileSync(outputInstanceName, instance);

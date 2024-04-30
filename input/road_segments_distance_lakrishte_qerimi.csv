@@ -1,4 +1,7 @@
 Start intersection ID,End intersection ID,Name of the road segment,Distance 
+18,19,Lakrishte_TahirZajmi_TerminaliDoganor,147
+19,18,TahirZajmi_Lakrishte_BillClinton,147
+0,18,BillClinton_Lakrishte_TahirZajmi,25
 18,0,Lakrishte_BillClinton_Lakrishte,25
 18,0,Lakrishte_BillClinton_Santea,25
 18,0,Lakrishte_BillClinton_Tuneli,25
@@ -13,6 +16,8 @@ Start intersection ID,End intersection ID,Name of the road segment,Distance
 26,0,ShtjefenGjeqovi_BillClinton_Tuneli,9
 26,0,ShtjefenGjeqovi_BillClinton_Santea,9
 26,0,ShtjefenGjeqovi_BillClinton_Lakrishte,9
+0,25,BillClinton_Tuneli,10
+0,26,BillClinton_ShtjefenGjeqovi,9
 0,1,BillClinton_Santea_BillClinton,29
 0,1,BillClinton_Santea_RobertDoll,29
 0,1,BillClinton_Santea_Katedralja,29
@@ -20,6 +25,7 @@ Start intersection ID,End intersection ID,Name of the road segment,Distance
 27,1,RobertDoll_Santea_BillClinton,12
 2,1,Katedralja_Santea_BillClinton,35
 2,1,Katedralja_Santea_RobertDoll,35
+1,27,Santea_RobertDoll,12
 1,2,Santea_Katedralja_Santea,35
 1,2,Santea_Katedralja_Parking,35
 1,2,Santea_Katedralja_Menza,35
@@ -36,10 +42,12 @@ Start intersection ID,End intersection ID,Name of the road segment,Distance
 71,2,Parking_Katedralja_Menza,11
 71,2,Parking_Katedralja_PTK,11
 71,2,Parking_Katedralja_Santea,11
+2,71,Katedralja_Parking,11
 2,16,Katedralja_Menza_Katedralja,35
 2,16,Katedralja_Menza_MAShTI,35
 2,16,Katedralja_Menza_Qerimi,35
 2,16,Katedralja_Menza_Teknik,35
+2,12,Katedralja_PTK_BulevardiDK,48
 3,16,Teknik_Menza_Teknik,53
 3,16,Teknik_Menza_Katedralja,53
 3,16,Teknik_Menza_MAShTI,53
@@ -52,6 +60,8 @@ Start intersection ID,End intersection ID,Name of the road segment,Distance
 6,16,MAShTI_Menza_Qerimi,48
 6,16,MAShTI_Menza_Teknik,48
 6,16,MAShTI_Menza_Katedralja,48
+16,6,Menza_MAShTI_Parlamenti,48
+16,3,Menza_Teknik_RrugaB,53
 16,4,Menza_Qerimi_Menza,30
 16,4,Menza_Qerimi_HajrullahAbdullahu,30
 16,4,Menza_Qerimi_EnverMaloku,30
@@ -64,3 +74,6 @@ Start intersection ID,End intersection ID,Name of the road segment,Distance
 30,4,EnverMaloku_Qerimi_Teknik,12
 30,4,EnverMaloku_Qerimi_Menza,12
 30,4,EnverMaloku_Qerimi_HajrullahAbdullahu,12
+4,29,Qerimi_HajrullahAbdullahu,11
+4,30,Qerimi_EnverMaloku,12
+4,3,Qerimi_Teknik_FehmiLladrovci,48
