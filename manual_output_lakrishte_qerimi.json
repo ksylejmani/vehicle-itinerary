@@ -1,6 +1,25 @@
 {
-  "number_of_intersections": 5,
+  "number_of_intersections": 6,
   "intersections": [
+    {
+      "intersection_name": "Lakrishte",
+      "all_red_phase_interval": 0,
+      "pedestrian_phase_interval": 30,
+      "phases": [
+        {
+          "phase": 1,
+          "streets": [
+            {
+              "TahirZajmi_Lakrishte_BillClinton": 93
+            },
+            {
+              "phase": 1,
+              "BillClinton_Lakrishte_TahirZajmi": 93
+            }
+          ]
+        }
+      ]
+    },
     {
       "intersection_name": "BillClinton",
       "all_red_phase_interval": 4,

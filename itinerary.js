@@ -128,6 +128,17 @@ function findFeasiblePath(startNode, endNode, allPaths, multiplier) {
                 filtered.push(filter_path)
         }
 
+        // const csvData = filtered.map(row => `"${row.replace(/"/g, '""')}"`).join('\n');
+        // const fileName = 'output.csv';
+        
+        // fs.writeFile(fileName, csvData, (err) => {
+        //   if (err) {
+        //     console.error('Error writing CSV file:', err);
+        //   } else {
+        //     console.log('CSV file saved successfully:', fileName);
+        //   }
+        // });
+
         let multiplyed_paths = []
         filtered.forEach((path, index) => {
             for (let i = 1; i <= multiplier; i++) {
@@ -168,9 +179,27 @@ function findAllFeasiblePathsForAllNodes(allPaths, multiplier) {
         const lengthB = b[0].pathLength;
         return lengthB - lengthA;
     });
-
     return result;
 }
+
+function writePathsToCSV(paths, pathsOutputFile) {
+    // Create CSV headers
+    const headers = ['path length', 'path Itinerary'];
+
+    // Convert array of objects to CSV format
+    const csvContent = `${headers.join(',')}\n${paths.map(obj => `${obj.pathLength},"${obj.path}"`).join('\n')}`;
+
+    // Write CSV content to file
+    fs.writeFile(pathsOutputFile, csvContent, err => {
+        if (err) {
+            console.error('Error writing CSV file:', err);
+            return;
+        }
+        console.log('CSV file has been created successfully!');
+    });
+}
+
+
 
 // Printing Functions
 function printGraph(graph) {
@@ -345,19 +374,19 @@ function generateInstance(intersections, streets, cars, constraints, duration = 
 }
 
 
-
 // Main Execution
-const exit_roadsFilePath = 'input/exit_roads_pr_fk.csv';
+const instanceName="fk";
+
+const exit_roadsFilePath = 'input/exit_roads_'+instanceName+'.csv';
 const intersectionsFile = 'input/intersections_pr_fk.csv';
-const maP_filename = 'input/map_pr_fk.txt';
-const streetsFile = 'input/road_segments_distance_pr_fk.csv';
-const traffic_filename = 'input/road_segments_traffic_pr_fk.csv';
-const constraints_filename="input/constraints_pr_fk.json";
+const maP_filename = 'input/map_lakrishte_qerimi.txt';
+const streetsFile = 'input/road_segments_distance_lakrishte_qerimi.csv';
+const traffic_filename = 'input/road_segments_traffic_lakrishte_qerimi.csv';
+const constraints_filename="input/constraints_lakrishte_qerimi.json";
 
 const outputInstanceName = 'output/instance_lakrishte_qerimi.json'
 
 const multiplier = 200;
-
 
 const graph = readEdgeListFromFile(maP_filename);
 const allPaths = generateAllPaths(graph);
