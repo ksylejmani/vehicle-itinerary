@@ -211,19 +211,18 @@ function generateInstance(intersections, streets, cars, constraints, duration = 
 
     return JSON.stringify(values, null, 4);
 }
-
 // Example usage:
 const carPathIncreaseFactor = 200;
 const instanceName = "pr_fk";
-
-const possiblePathsFile = 'input/possible_paths/possible_paths_synthetic.csv';
-const trafficFile = 'input/road_segments/road_segments_traffic_' + instanceName + '.csv';
-const exitRoadsFile = 'input/exit_roads/exit_roads_' + instanceName + '.csv';
-const intersectionsFile = 'input/intersections/intersections_pr_fk.csv';
-const streetsFile = 'input/road_segments/road_segments_distance_' + instanceName + '.csv';
-const constraintsFile = 'input/constraints/constraints_' + instanceName + '.json';
+const possiblePathsFile = 'input/possible_paths.csv';
+const trafficFile = 'input/road_segments_traffic_' + instanceName + '.csv';
+const exitRoadsFile = 'input/exit_roads_' + instanceName + '.csv';
+const intersectionsFile = 'input/intersections_pr_fk.csv';
+const streetsFile = 'input/road_segments_distance_' + instanceName + '.csv';
+const constraintsFile = 'input/constraints_' + instanceName + '.json';
 
 const outputInstanceName = 'output/instance_' + instanceName + '.json'
+
 
 const intersections = readIntersectionsAndConvertToJSON(intersectionsFile);
 const streets = readStreetsAndConvertToJSON(streetsFile);
@@ -241,5 +240,4 @@ let cars = formatCarPaths(carPathsWithExitRoads)
 let instance = generateInstance(intersections, streets, cars, constraints);
 
 fs.writeFileSync(outputInstanceName, instance);
-
-console.log(trafficData)
+console.log(traffic)

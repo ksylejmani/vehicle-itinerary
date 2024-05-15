@@ -26,7 +26,7 @@
 23 22 RrugaEUglarit_ElezBerisha_TreguIMadh
 23 22 RrugaEUglarit_ElezBerisha_Interex
 22 67 ElezBerisha_Interex
-22 23 ElezBerisha_RrugaEUglarit_KompleksiLinda2
+22 23 ElezBerisha_RrugaEUglarit_KompleksiLinda3
 22 23 ElezBerisha_RrugaEUglarit_ElezBerishai
 22 23 ElezBerisha_RrugaEUglarit_HajrullahZymi
 68 23 KompleksiLinda3_RrugaEUglarit_HajrullahZymi
